@@ -9,10 +9,10 @@
 import { createPrompt } from 'bun-promptx'
 
 /**
- * Reverses strings using recursion.
+ * Finds the factorial of a number.
  *
- * @param stringToReverse the string to reverse
- * @returns the reversed string
+ * @param integer the integer to use
+ * @returns the factorial of the number
  */
 function factorial(integer: number): number {
   if (integer < 0) {
